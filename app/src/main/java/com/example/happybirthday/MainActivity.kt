@@ -34,7 +34,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             HappyBirthdayTheme {
                 Surface(modifier = Modifier.fillMaxSize(),color = MaterialTheme.colorScheme.background){
-                    GreetingText("Happy Birthday Sam!", from = "From Emma")
+                    GreetingImage("Happy Birthday Sam!", from = "From Emma")
                 }
 
                 }
